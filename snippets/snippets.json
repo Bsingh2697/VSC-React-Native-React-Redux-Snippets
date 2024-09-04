@@ -453,5 +453,23 @@
       "export default ${TM_FILENAME_BASE};"
     ],
     "description": "Creates a stateless React component as a named function without PropTypes (Reactjs code snippet)"
+  },
+  "React Stateless Function": {
+    "prefix": "rnsf",
+    "body": [
+      "import React from 'react';",
+      "import { View } from 'react-native';",
+      "",
+      "function ${TM_FILENAME_BASE}(props) {",
+      "\treturn (",
+      "\t\t<View>",
+      "\t\t\t",
+      "\t\t</View>",
+      "\t);",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ],
+    "description": "Creates a stateless React native component as a named function without PropTypes (React Native code snippet)"
   }
 }
